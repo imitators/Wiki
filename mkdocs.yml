@@ -1,0 +1,140 @@
+site_name: Yoool's wiki V1.2
+
+# Contents
+nav:
+  # 思想
+  - Home:
+    - Introduction: index.md
+    - Web Security:
+      - Discovery: thinking/discovery vulnerability/introduction.md
+      - Tricks: thinking/discovery vulnerability/tricks.md
+    - Programming Thinking: 
+      - Code Specification: thinking/programming thinking/code specification.md
+      - programming paradigm: thinking/programming thinking/programming paradigm.md
+      - Design Pattern: thinking/programming thinking/design pattern.md
+      - Data Structure: thinking/programming thinking/data structure.md
+      - DevSecOps: thinking/programming thinking/devsecops.md
+    - Red VS Blue:
+      - base:
+        - definition: thinking/red vs blue/base/definition.md
+      - ATT&CK: 
+        - introduction: thinking/red vs blue/att&ck/introduction.md
+      - CKC: thinking/red vs blue/ckc.md
+      - PTES: thinking/red vs blue/ptes.md
+
+  # 安全原理 + 安全研究
+  - Program Security:
+    - Overview: program security/overview.md
+    - Programing language: 
+      - C:
+        - Principle: programming language/c/principle.md
+      - Java:
+        - Core Conception: programming language/java/core conception.md
+        - Engineering: programming language/java/engineering.md
+      - PHP: 
+        - PHP Programing: programming language/php/php.md
+        - PHP Code Auditing: programming language/php/php code auditing.md
+      - Webpack: programming language/webpack.md
+      - Difference: programming language/difference between programing languages.md
+
+    - Database:
+      - SQL: database/sql.md
+      - SQL Injection: database/sql injection.md
+      - MySQL:
+        - Overview: database/mysql/overview.md
+        - InnoDB: database/mysql/innodb.md
+        - Security: database/mysql/security.md
+      - MongoDB: database/mongodb.md
+
+    - File: 
+      - Picture: 
+        - PNG: file/picture/png.md
+      - Audio: 
+        - MP3: file/audio/mp3.md
+      - tricks: file/tricks.md
+        
+    - Network: 
+      - Definition: computer network/definition.md
+      - TCP/IP protocal: 
+        - Overview: computer network/tcp ip protocol/overview.md
+        - Link Layer: computer network/tcp ip protocol/link layer.md
+        - IP Protocol: computer network/tcp ip protocol/ip protocol.md
+      - VMware network: computer network/vmware network.md
+
+    - Filesystem: 
+      - Introduction: filesystem/introduction.md
+      - Definition: filesystem/definition.md
+      - NTFS:  filesystem/NTFS.md
+      - QNX: filesystem/QNX.md
+
+    - OS: 
+      - introduction: operation system/introduction.md
+      - Linux:
+        - Introduction:  operation system/linux/introduction.md
+        - Basic:
+          - filesystem: operation system/linux/basic/filesystem.md
+          - mount: operation system/linux/basic/mount.md
+      - Windows:
+        - introduction: operation system/windows/introduction.md
+        - definition: operation system/windows/definition.md
+        - Win 7:
+          - introduction: operation system/windows/win 7/introduction.md
+        - Win server 2003:
+          - introduction: operation system/windows/win server 2003/introduction.md
+        - Win server 2008:
+          - introduction: operation system/windows/win server 2008/introduction.md
+
+    - Device: 
+      - Definition: device/definition.md
+
+  - Wireless: 
+    - Introduction: wireless/introduction.md
+    - SDR: 
+      - Introduction: wireless/sdr/introduction.md
+  
+  - English: 
+    - tactic: english/tactic.md
+
+  - Math: 
+    - Discrete mathematics: math/discrete mathematics.md
+
+# Theme
+theme:
+  name: 'material'
+  language: 'zh'
+  palette:
+    primary: 'white'
+    accent: 'red'
+  icon:
+    logo: 'material/school'
+  features:
+    - tabs
+  font:
+    text: 'Noto Sans'
+    code: 'Source Code Pro'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

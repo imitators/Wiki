@@ -1,0 +1,133 @@
+site_name: Yoool's wiki V1.2
+
+# Contents
+nav:
+  - Home:
+    - Introduction: index.md
+    - Knowledge structure: knowledge structure.md
+    - Tricks: tricks.md
+    - set a question: set a question.md
+
+  # 安全原理 + 安全研究
+  - Web Sec:
+    - Discovery: web security/discovery vulnerability/introduction.md
+    - PHP Code Auditing: web security/php code auditing.md
+    - SQL Injection: web security/sql injection.md
+
+  # 编程 + 原理
+  - Software: 
+    - Difference: software engineering/difference between programing languages.md
+    - Programming Thinking: 
+      - programming paradigm: software engineering/programming thinking/programming Paradigm.md
+      - Design Pattern: software engineering/programming thinking/design pattern.md
+      - Data Structure: software engineering/programming thinking/data structure.md
+    - Server:
+      - Java:
+        - Core Conception: software engineering/server/java/core conception.md
+        - Engineering: software engineering/server/java/engineering.md
+      - PHP: software engineering/server/php.md
+    - Client:
+      - Webpack: software engineering/client/webpack.md
+    - Database:
+      - SQL: software engineering/database/sql.md
+
+  # 对抗经验
+  - Red VS Blue:
+    - ATT&CK: 
+      - introduction: red vs blue/att&ck/introduction.md
+    - CKC: red vs blue/ckc.md
+    - PTES: red vs blue/ptes.md
+    - base:
+      - definition: red vs blue/base/definition.md
+
+  - Network: 
+    - Definition: computer network/definition.md
+    - TCP/IP protocal: 
+      - Overview: computer network/tcp ip protocol/overview.md
+      - Link Layer: computer network/tcp ip protocol/link layer.md
+      - IP Protocol: computer network/tcp ip protocol/ip protocol.md
+    - VMware network: computer network/vmware network.md
+  
+  - OS: 
+    - introduction: operation system/introduction.md
+    - File: 
+      - Picture: 
+        - PNG: operation system/file/picture/png.md
+      - Audio: 
+        - MP3: operation system/file/audio/mp3.md
+      - tricks: operation system/file/tricks.md
+    - Filesystem: 
+      - Introduction: operation system/filesystem/introduction.md
+      - Definition: operation system/filesystem/definition.md
+      - NTFS:  operation system/filesystem/NTFS.md
+      - QNX: operation system/filesystem/QNX.md
+    - Linux:
+      - Introduction:  operation system/linux/introduction.md
+      - Basic:
+        - filesystem: operation system/linux/basic/filesystem.md
+        - mount: operation system/linux/basic/mount.md
+    - Windows:
+      - introduction: operation system/windows/introduction.md
+      - definition: operation system/windows/definition.md
+      - Win 7:
+        - introduction: operation system/windows/win 7/introduction.md
+      - Win server 2003:
+        - introduction: operation system/windows/win server 2003/introduction.md
+      - Win server 2008:
+        - introduction: operation system/windows/win server 2008/introduction.md
+    - Device: 
+      - Definition: operation system/device/definition.md
+
+  - Wireless: 
+    - Introduction: wireless/introduction.md
+    - SDR: 
+      - Introduction: wireless/sdr/introduction.md
+  
+  - English: 
+    - tactic: english/tactic.md
+
+  - Math: 
+    - Discrete mathematics: math/discrete mathematics.md
+# Theme
+theme:
+  name: 'material'
+  language: 'zh'
+  palette:
+    primary: 'white'
+    accent: 'red'
+  icon:
+    logo: 'material/school'
+  features:
+    - tabs
+  font:
+    text: 'Noto Sans'
+    code: 'Source Code Pro'
+
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
