@@ -25,6 +25,8 @@ nav:
   # 安全原理 + 安全研究
   - Program Security:
     - Overview: program security/overview.md
+    - Software:
+      - Git: software/git.md
     - Programing language: 
       - C:
         - Principle: programming language/c/principle.md
