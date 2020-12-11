@@ -8,6 +8,9 @@ nav:
     - Web Security:
       - Discovery: thinking/discovery vulnerability/introduction.md
       - Tricks: thinking/discovery vulnerability/tricks.md
+    - discovery vulnerability: 
+      - Introduction: thinking/discovery vulnerability/introduction.md
+      - Tricks: thinking/discovery vulnerability/tricks.md
     - Programming Thinking: 
       - Code Specification: thinking/programming thinking/code specification.md
       - programming paradigm: thinking/programming thinking/programming paradigm.md
