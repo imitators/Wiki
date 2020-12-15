@@ -19,3 +19,39 @@ GCC 编译器驱动程序读取源程序文件(.c)后，编译系统 (compilatio
 汇编阶段：将 hello.s 翻译成机器语言指令，并把指令打包成**可重定位目标程序**的格式。
 
 链接阶段：将标准 C 库中被调用的函数（例如 `printf()` 链接 printf.o），输出可执行文件 hello。
+
+## 使用
+
+### 保留关键字
+
+=== "unsigned"
+
+    无符号数
+
+=== "typeof"
+
+    给数据类型命名
+
+    ```
+    e.g.
+
+    typedef int *int_pointer;
+    int_pointer a;  // a 是一个指向 int 类型数据的指针
+    ```
+
+### 常用函数
+
+printf (format string, parameter)
+
+### 指针
+
+声明时的指针类型就是指针指向的数据类型。
+
+数组表示法能引用指针，指针表示法也能引用数组元素。、
+
+& 取地址
+
+### GC
+
+垃圾回收机制 (garbage collector)
+

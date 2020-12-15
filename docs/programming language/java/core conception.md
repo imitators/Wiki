@@ -12,6 +12,12 @@ Object 公用方法
 注解
 特性
 
+## 数据类型
+
+### 数组
+
+协变 (covariance) 与逆变 (contravariance) 
+
 ## 抽象
 
 ## 封装

@@ -14,7 +14,7 @@
 
 ### 其他
 
-```
+```linenums="5"
 git init：初始化本地库
 
 git status：查看工作区、暂存区的状态
