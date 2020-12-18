@@ -48,7 +48,7 @@ P                       钢笔工具（Pen Tool）
 B                       油漆桶（Paint Bucket）	
 Ctrl + DRAG             弯曲工具（Bend Tool）
 Ctrl + J                连接选择点（Join Selection）	
-⌥ + DRAG                复制（Duplicate）	
+Alt + DRAG                复制（Duplicate）	
 ESC or RETURN           退出矢量模式（Exit Vector Edit Mode）	
 ```
 
@@ -74,14 +74,14 @@ S                   缩放工具（Slice Tool）
 Ctrl + C            复制（Copy）
 Ctrl + X            剪贴（Cut）
 Ctrl + V            粘贴（Paste）
-Ctrl + D or ⌥ + DRAG 重复/复制（Duplicate）
+Ctrl + D or Alt + DRAG 重复/复制（Duplicate）
 Ctrl + G            成组（Group Selection）
 Ctrl + Shift + G    取消成组（Ungroup Selection）
 Ctrl + Shift + H    显示/隐藏图层（Toggle Visibility）
 Ctrl + Shift + L    锁定/取消锁定图层（Toggle Lock）
 Ctrl + E            扩展（Flatten Selection）
 Ctrl + Shift + O    扩展描边（Outline Stroke）
-⌥ + Ctrl + M        蒙版（Toggle Mask）
+Alt + Ctrl + M        蒙版（Toggle Mask）
 ```
 
 ## 参考资料
