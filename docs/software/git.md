@@ -14,7 +14,7 @@
 
 ### 其他
 
-```linenums="5"
+```
 git init：初始化本地库
 
 git status：查看工作区、暂存区的状态
@@ -40,9 +40,11 @@ git log --pretty=oneline：以漂亮的一行显示，包含全部哈希索引�
 git log --oneline：以简洁的一行显示，包含简洁哈希索引值
 
 git reflog：以简洁的一行显示，包含简洁哈希索引值，同时显示移动到某个历史版本所需的步数
+```
 
 ### 版本控制
 
+```
 git reset --hard 简洁/完整哈希索引值：回到指定哈希值所对应的版本
 
 git reset --hard HEAD：强制工作区、暂存区、本地库为当前HEAD指针所在的版本
@@ -79,7 +81,7 @@ git checkout <分支名>：切换分支
 
 git merge <被合并分支名>：合并分支
 
-　　tip：如master分支合并 hot_fix分支，那么当前必须处于master分支上，然后执行 git merge hot_fix 命令
+　　tip：如 master 分支合并 hot_fix 分支，那么当前必须处于 master 分支上，然后执行 git merge hot_fix 命令
 
 　　tip2：合并出现冲突
 
@@ -101,13 +103,13 @@ git clone <远程库地址>：克隆远程库
 
 git remote -v：查看远程库地址别名
 
-git remote add <别名> <远程库地址>：新建远程库地址别名
+git remote add <远程库别名> <远程库地址>：新建远程库地址别名
 
-git remote rm <别名>：删除本地中远程库别名
+git remote rm <远程库别名>：删除本地中远程库别名
 
-git push <别名> <分支名>：本地库某个分支推送到远程库，分支必须指定
+git push <远程库别名> <分支名>：本地库某个分支推送到远程库，分支必须指定
 
-git pull <别名> <分支名>：把远程库的修改拉取到本地
+git pull <远程库别名> <分支名>：把远程库的修改拉取到本地
 
 　　tip：该命令包括git fetch，git merge
 
