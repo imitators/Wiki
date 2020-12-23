@@ -5,9 +5,11 @@ nav:
   # 思想
   - Home:
     - Introduction: index.md
+    - Env: thinking/environment/introduction.md
     - Discovery Vulnerability: 
       - Introduction: thinking/discovery vulnerability/introduction.md
       - Tricks: thinking/discovery vulnerability/tricks.md
+      - Fuzz: thinking/discovery vulnerability/fuzz.md
     - Programming Thinking: 
       - Code Specification: thinking/programming thinking/code specification.md
       - Programming Paradigm: thinking/programming thinking/programming paradigm.md
@@ -21,11 +23,14 @@ nav:
         - introduction: thinking/red vs blue/att&ck/introduction.md
       - CKC: thinking/red vs blue/ckc.md
       - PTES: thinking/red vs blue/ptes.md
+    - Debug:
+      - Introduction: thinking/debug/introduction.md
 
   # 安全原理 + 安全研究
   - Computer Science:
     - Overview: program security/overview.md
     - Software:
+      - Introduction: software/introduction.md
       - Git: software/git.md
       - Figma: software/figma.md
     - Programing language: 
@@ -49,6 +54,7 @@ nav:
         - InnoDB: database/mysql/innodb.md
         - Security: database/mysql/security.md
       - MongoDB: database/mongodb.md
+      - Connection Pooling: database/connection pooling/Introduction.md
 
     - File: 
       - Introduction: file/introduction.md
@@ -74,6 +80,7 @@ nav:
 
     - OS: 
       - Introduction: operation system/introduction.md
+      - Concept: operation system/concept.md
       - Linux:
         - Introduction:  operation system/linux/introduction.md
         - Basic:
@@ -89,21 +96,32 @@ nav:
         - Win server 2008:
           - Introduction: operation system/windows/win server 2008/introduction.md
     
-    - Compiler:
-      - Introduction: compiler/introduction.md
+    - Compiler: compiler/introduction.md
+
+    - Debugger: debugger/introduction.md
+      
+    - Emulator: emulator/introduction.md
 
     - Device: 
-      - Definition: device/definition.md
+      - Arduino: device/arduino.md
+      - MSP430: device/msp430.md
+
+    - Hardware module: hardware module/definition.md
+
+    - Electrical network: electrical network/introduction.md
+
+    - Chip: chip/introduction.md
 
   - Wireless: 
     - Introduction: wireless/introduction.md
     - SDR: 
       - Introduction: wireless/sdr/introduction.md
   
-  - English: 
-    - tactic: english/tactic.md
+  - Language:
+    - English: language/english.md
 
   - Math: 
+    - Number Theory: math/number theory.md
     - Discrete mathematics: math/discrete mathematics.md
 
 # Theme
