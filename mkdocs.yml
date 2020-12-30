@@ -25,6 +25,7 @@ nav:
       - PTES: thinking/red vs blue/ptes.md
     - Debug:
       - Introduction: thinking/debug/introduction.md
+    - Reverse: thinking/reverse.md
 
   # 安全原理 + 安全研究
   - Computer Science:
@@ -103,6 +104,8 @@ nav:
     - Emulator: emulator/introduction.md
 
     - Device: 
+      - Introduction: device/introduction.md
+      - IC card: device/ic card.md
       - Arduino: device/arduino.md
       - MSP430: device/msp430.md
 
@@ -110,7 +113,11 @@ nav:
 
     - Electrical network: electrical network/introduction.md
 
-    - Chip: chip/introduction.md
+    - Chip: 
+      - Introduction: chip/introduction.md
+      - Architecture: chip/architecture.md
+      - Firmware: chip/firmware.md
+      - XPU: chip/xpu.md
 
   - Wireless: 
     - Introduction: wireless/introduction.md
