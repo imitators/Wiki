@@ -24,6 +24,12 @@
 
 PCB (Printed Circuit Board, 印刷电路板) 采用电子印刷术生产。
 
+### TTL 和 CMOS
+
+TTL (Transistor-Transistor Logic, 晶体管-晶体管逻辑集成电路) 电平规定 +5V 等价于逻辑"1"，0V 等价于逻辑"0"。
+
+CMOS 
+
 ## 常见电路分析设备
 
 - 示波器

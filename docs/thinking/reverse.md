@@ -6,11 +6,11 @@
 
 ## 反汇编
 
-反汇编分为静态反汇编（static disassembly）和动态反汇编（dynamic disassembly）。
+反汇编分为静态反汇编 (static disassembly) 和动态反汇编 (dynamic disassembly)。
 
 静态反汇编是将可执行文件根据对应指令系统转换为汇编代码，而并不执行可执行文件。
 
-静态反汇编主要分为两类：线性扫描（linear sweep）和递归遍历（recursive traversal）。
+静态反汇编主要分为两类：线性扫描 (linear sweep) 和递归遍历 (recursive traversal)。
 
 动态反汇编是在可执行文件执行的过程中监控执行过程进而识别出执行的指令。
 

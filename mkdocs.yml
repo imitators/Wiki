@@ -30,9 +30,13 @@ nav:
   # 安全原理 + 安全研究
   - Computer Science:
     - Overview: program security/overview.md
+    
+    - System: system/ics.md
+
     - Software:
       - Introduction: software/introduction.md
       - Git: software/git.md
+      - Anaconda: software/anaconda.md
       - Figma: software/figma.md
     - Programing language: 
       - Introduction: programming language/introduction.md
@@ -46,6 +50,8 @@ nav:
         - PHP Code Auditing: programming language/php/php code auditing.md
       - Webpack: programming language/webpack.md
       - Difference: programming language/difference between programing languages.md
+      - Component:
+        - Regexp: programming language/regexp.md
 
     - Database:
       - SQL: database/sql.md
@@ -96,6 +102,7 @@ nav:
           - Introduction: operation system/windows/win server 2003/introduction.md
         - Win server 2008:
           - Introduction: operation system/windows/win server 2008/introduction.md
+      - RTOS: operation system/rtos.md
     
     - Compiler: compiler/introduction.md
 
@@ -111,13 +118,17 @@ nav:
 
     - Hardware module: hardware module/definition.md
 
-    - Electrical network: electrical network/introduction.md
+    - Electrical network: 
+      - Introduction: electrical network/introduction.md
+      - JTAG: electrical network/jtag.md
+
 
     - Chip: 
       - Introduction: chip/introduction.md
       - Architecture: chip/architecture.md
       - Firmware: chip/firmware.md
       - XPU: chip/xpu.md
+      - Arm: chip/arm.md
 
   - Wireless: 
     - Introduction: wireless/introduction.md
