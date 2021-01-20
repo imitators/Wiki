@@ -38,6 +38,9 @@ nav:
       - Git: software/git.md
       - Anaconda: software/anaconda.md
       - Figma: software/figma.md
+      - Docker: software/docker.md
+      - IDA: software/ida.md
+      - Windows Terminal: software/windows terminal.md
     - Programing language: 
       - Introduction: programming language/introduction.md
       - C:

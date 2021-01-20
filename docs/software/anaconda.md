@@ -4,7 +4,7 @@ Anaconda 不影响系统本身的 python 环境，并且结合了 pip 和 virtua
 
 ## 使用
 
-### 包管理
+### 包
 
 ```
 conda list                      列出当前环境的所有包
@@ -14,7 +14,7 @@ conda update requests           更新 requests 包
 conda remove -n learn --all     删除 learn 环境及下属所有包
 ```
 
-### 环境管理
+### 环境
 
 ```
 conda env list                  列出 conda 管理的所有环境
@@ -22,13 +22,13 @@ activate                        切换到 base 环境
 activate learn                  切换到 learn 环境
 activate root                   切换到 root 环境
 
-conda create [-n env_name] python=3             创建一个名为 learn 的环境，
-                                                并指定 python 版本为 3 (的最新版本)
+conda create [-n env_name] python=3             创建一个名为 learn 的环境
+                                                // python 默认为 3 的最新版本
 conda create [-n new_name] --clone [old_name]   重命名环境
 conda remove -n env_name --all                  删除环境
 ```
 
-### conda 管理
+### conda
 
 ```
 conda update conda              升级 conda
@@ -40,7 +40,7 @@ conda clean -t                  删除保存下来的压缩文件（.tar）
 
 ## 配置
 
-### 仓库管理
+### 仓库
 
 ```
 conda env export > environment.yaml             导出当前环境的包信息
@@ -51,7 +51,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/f
 conda config --remove channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/    删除仓库
 ```
 
-### 系统环境变量
+### 环境变量
 
 Path
 

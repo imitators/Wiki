@@ -21,10 +21,8 @@ setx key=               删除用户
 setx "key" "" -m        删除系统
 ```
 
-*`set` 接受正则匹配
-
 ## powershell
 
 ### 设置
 
-脚本路径：`C:\Users\97098\Documents\WindowsPowerShell\a.psl`
+脚本路径：`C:\Users\[username]\Documents\WindowsPowerShell\a.psl`
