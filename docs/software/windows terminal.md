@@ -1,8 +1,15 @@
-# Windows 命令行
+# Windows Terminal
 
 ## 使用
 
-### 环境变量
+### 快捷键
+
+```
+ctrl+shift+1            powershell
+ctrl+shift+2            cmd
+```
+
+### cmd 设置环境变量
 
 ```
 set                     查询所有

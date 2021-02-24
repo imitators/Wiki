@@ -113,7 +113,7 @@ git remote rm <远程库别名>：删除本地中远程库别名
 
 git pull <远程库别名> <分支名>：把远程库的修改拉取到本地
 
-　　tip：该命令包括git fetch，git merge
+　　tip：该命令包括 git fetch，git merge
 
 git fetch <远程库别名> <远程库分支名>：抓取远程库的指定分支到本地，但没有合并
 

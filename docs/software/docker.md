@@ -7,6 +7,7 @@
 ```
 * docker images         查看本地已有镜像
 docker search [name]    搜索镜像
+                        // 详情见 hub.docker.com
 
 * docker pull [name]    拉取镜像
 docker build            创建 Dockerfile 镜像
