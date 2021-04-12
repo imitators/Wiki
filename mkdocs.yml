@@ -2,51 +2,131 @@ site_name: Yoool's wiki V1.3
 
 # Contents
 nav:
-  # 思想
-  - Home:
-    - Introduction: index.md
-    - Env: thinking/environment/introduction.md
-    - Discovery Vulnerability: 
-      - Introduction: thinking/discovery vulnerability/introduction.md
-      - Tricks: thinking/discovery vulnerability/tricks.md
-      - Fuzz: thinking/discovery vulnerability/fuzz.md
-    - Programming Thinking: 
-      - Code Specification: thinking/programming thinking/code specification.md
-      - Programming Paradigm: thinking/programming thinking/programming paradigm.md
-      - Design Pattern: thinking/programming thinking/design pattern.md
-      - Data Structure: thinking/programming thinking/data structure.md
-      - DevSecOps: thinking/programming thinking/devsecops.md
-    - Red VS Blue:
-      - base:
-        - definition: thinking/red vs blue/base/definition.md
-      - ATT&CK: 
-        - introduction: thinking/red vs blue/att&ck/introduction.md
-      - CKC: thinking/red vs blue/ckc.md
-      - PTES: thinking/red vs blue/ptes.md
-    - Debug:
-      - Introduction: thinking/debug/introduction.md
-    - Reverse: thinking/reverse.md
+  # 漏洞研究
+  - Vulhub:
+    - J001 Summary: vulhub/summary.md
+    - J102 SQLi Discovery: vulhub/sqli discovery.md
+    - J103 Python: vulhub/python.md
+    - J104 Code Audit: vulhub/code audit.md
 
-  # 安全原理 + 安全研究
-  - Computer Science:
+  # 红队
+  - Red Team:
+
+    - G:
+      - G101 Whatweb: red team/whatweb.md
+      - G102 Nmap: red team/nmap.md
+      - G103 sqlmap: red team/sqlmap.md
+      - G205 VPS: red team/vps.md
+      - G302 Metasploit: red team/metasploit.md
+      - G504 Frp: red team/frp.md
+
+    - Linux usage: red team/linux usage.md
+
+    - J001-1 Reconnaissance: red team/reconnaissance.md
+    - J001-2 Resource Development: red team/resource development.md
+    - J001-3 Initial Access: red team/initial access.md
+    - J001-4 Execution: red team/execution.md
+    - J001-5 Persistence: red team/persistence.md
+    - J001-6 Privilege Escalation: red team/privilege escalation.md
+    - J001-7 Defense Evasion: red team/defense evasion.md
+    - J001-8 Credential Access: red team/credential access.md
+    - J001-9 Discovery: red team/discovery.md
+    - J001-10 Lateral Movement: red team/lateral movement.md
+    - J001-11 Collection: red team/collection.md
+    - J001-12 Command and Control: red team/command and control.md
+    - J001-13 Exfiltration: red team/exfiltration.md
+
+    - B101 DC-1: red team/dc-1.md
+
+  # 近源渗透
+  - 近源渗透:
+    - Summary: near source attack/summary.md
+    - Key: near source attack/key.md
+
+  # 蓝队
+  - Blue Team:
+    - J001 Summary: blue team/summary.md
+
+  # 工具使用
+  - Tools:
+    - Material for Mkdocs: software/material for mkdocs.md
+    - Git: software/git.md
+    - Anaconda: software/anaconda.md
+    - Figma: software/figma.md
+    - Docker: software/docker.md
+    - IDA: software/ida.md
+    - Windows Terminal: software/windows terminal.md
+
+  # 挖洞技巧
+  - Web Vulnerabilities:
+    - K001 Introduction: web vulnerabilities/web security.md
+
+  # 英语语法
+  - English:
+    - Grammar: english/grammar.md
+
+  # 推荐（不开源）
+  - Recommend:
+    - Design: recommend/design.md
+    - English: recommend/english.md
+    - Music: recommend/music.md
+    # - CTF-WEB安全入门: recommend/security.md
+    - CTF-WEB: recommend/ctf web.md
+  #   - 专业信息收集:
+  #   - 编辑:
+  #   - 效率:
+  #   - 必备:
+
+  # 车联网（漏洞、模块、开发、技术）
+  - Connected Cars:
+    - L001 Attack Surface: connected cars/attack surface.md
+
+    - M101-0010 T-BOX: connected cars/tbox.md
+
+    - K001 Introduction: connected cars/introduction.md
+    - K002 History: connected cars/history.md
+
+    - J101 Fuzz: connected cars/fuzz.md
+  
+  # 开发
+
+  # v1.2 思考（目录已废弃，等待归档）
+  # - Thinking:
+  #   - Introduction: index.md
+  #   - Env: thinking/environment/introduction.md
+  #   - Discovery Vulnerability: 
+  #     - Introduction: thinking/discovery vulnerability/introduction.md
+  #     - Tricks: thinking/discovery vulnerability/tricks.md
+  #     - Fuzz: thinking/discovery vulnerability/fuzz.md
+  #   - Programming Thinking: 
+  #     - Code Specification: thinking/programming thinking/code specification.md
+  #     - Programming Paradigm: thinking/programming thinking/programming paradigm.md
+  #     - Design Pattern: thinking/programming thinking/design pattern.md
+  #     - Data Structure: thinking/programming thinking/data structure.md
+  #     - DevSecOps: thinking/programming thinking/devsecops.md
+  #   - Red VS Blue:
+  #     - base:
+  #       - definition: thinking/red vs blue/base/definition.md
+  #     - ATT&CK: 
+  #       - introduction: thinking/red vs blue/att&ck/introduction.md
+  #     - CKC: thinking/red vs blue/ckc.md
+  #     - PTES: thinking/red vs blue/ptes.md
+  #   - Debug:
+  #     - Introduction: thinking/debug/introduction.md
+  #   - Reverse: thinking/reverse.md
+
+  # 赛博空间组成与原理
+  - Cyber Organization:
     - Overview: program security/overview.md
     
     - System: 
       - ICS: system/ics.md
-      - Connected Car: system/connected car.md
 
     - System Module:
       - SSO: system module/sso.md
 
     - Software:
       - Introduction: software/introduction.md
-      - Material for Mkdocs: software/material for mkdocs.md
-      - Git: software/git.md
-      - Anaconda: software/anaconda.md
-      - Figma: software/figma.md
-      - Docker: software/docker.md
-      - IDA: software/ida.md
-      - Windows Terminal: software/windows terminal.md
 
     - Programing language: 
       - Introduction: programming language/introduction.md
@@ -88,6 +168,7 @@ nav:
         - Link Layer: computer network/tcp ip protocol/link layer.md
         - IP Protocol: computer network/tcp ip protocol/ip protocol.md
       - VMware network: computer network/vmware network.md
+      - VPN: computer network/vpn.md
 
     - Filesystem: 
       - Introduction: filesystem/introduction.md
@@ -113,6 +194,10 @@ nav:
         - Win server 2008:
           - Introduction: operation system/windows/win server 2008/introduction.md
       - RTOS: operation system/rtos.md
+
+    - OS Core: 
+      - File Discription & File Object: os core/file discription and file object.md
+      - iNode: os core/inode.md
     
     - Compiler: compiler/introduction.md
 
@@ -139,17 +224,72 @@ nav:
       - XPU: chip/xpu.md
       - Arm: chip/arm.md
 
-  - Wireless: 
-    - Introduction: wireless/introduction.md
-    - SDR: 
-      - Introduction: wireless/sdr/introduction.md
-  
-  - Language:
-    - English: language/english.md
+    - Wireless: 
+      - Introduction: wireless/introduction.md
+      - SDR: 
+        - Introduction: wireless/sdr/introduction.md
 
-  - Math: 
-    - Number Theory: math/number theory.md
-    - Discrete mathematics: math/discrete mathematics.md
+    - Math: 
+      - Number Theory: math/number theory.md
+      - Discrete mathematics: math/discrete mathematics.md
+
+  # 素质教育系列（输出，其他平台开源）
+  - Export:
+    # - 从本质开始: 
+  #   - 知识库的智慧: （最开始做什么）知识索引，帮助的问题，（参考高手）注意细节，计算投入和产出，避免过度工程（文章不要写的太细致，而是给人足够的启发，引导自发的探索，作者仅仅解决最核心的问题）
+      - E001 可怕的概念: export/concept.md 
+  #   - 学习的智慧:
+  #     - 洞察力: 
+  #     - 付出努力:
+  #     - 刻意练习的本质:
+  #     - 学习的基本模型:
+  #       - 看想做:
+  #     - 敢于重新开始:
+  #     - 学科组成原理: 概括介绍，基本模型+组成部分，具体实现+实现的原理，不同学科视角分析，前沿资料获取，实践条件，实践操作，圈子
+  #   - 自学:
+  #     - 发现问题: 经验主义，新时代的生产力，用工具代替重复劳动，实践使用，驱动力在哪，努力的价值，一步慢步步慢+不要太快
+  #     - 思考问题:
+  #     - 努力的作用:
+  #     - 以自己为师:
+  #   - 教学的智慧:
+  #     - 接近教学:
+  #     - 不建立反感:
+  #     - 设置问题和思考:
+  #     - 答疑的智慧:
+  #   - 教学相关:
+  #     - 教学者的自我提升:
+  #     - 自顶向下的智慧: 尊重不同，细节
+  #     - 自顶向下和自底向上的对比: 尊重不同，满足好奇，野蛮生长，被继承的优缺点
+  #     - 历史教学:
+  #   - 思考的智慧:
+  #     - 不复杂:
+  #     - 复杂性:
+  #     - 世界的基本模型:
+  #     - 自我评价:
+  #     - 跨学科思维:
+  #     - 套娃式思考:
+  #     - 能把握的事情永远是少数:
+  #   - 信息中含有什么:
+  #     - 知识点:
+  #     - 焦虑的解药:
+  #     - 判断价值:
+
+  # 安全思维教育:
+  # - 安全基于了解:
+  # - 看想做: 
+  # - 自学的智慧:
+  #   - 发现问题:
+  #   - 思考问题:
+  #   - 努力的作用:
+
+  # 日记（不开源）
+  # 更新日志
+  # 自我感受
+  # 思考和进步
+  - Thinking: 
+    - wiki V1.3 设计-安全知识分类: 1.md
+    - wiki V1.3 设计-整体知识分类: 大层次知识库分类.md
+    - wiki 知识库软件中的设计错误: 知识库软件中的设计错误.md
 
 # Theme
 theme:

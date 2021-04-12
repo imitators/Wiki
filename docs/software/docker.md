@@ -5,14 +5,14 @@
 ### 镜像
 
 ```
-* docker images         查看本地已有镜像
-docker search [name]    搜索镜像
-                        // 详情见 hub.docker.com
+* docker images             查看本地已有镜像
+docker search [name]        搜索镜像
+                            // 详情见 hub.docker.com
 
-* docker pull [name]    拉取镜像
-docker build            创建 Dockerfile 镜像
+* docker pull [name]        拉取镜像
+docker build -t [name] .    创建 Dockerfile 镜像（后面有个点，表示在本目录搜索）
 
-docker rmi [name]       删除镜像
+docker rmi [name]           删除镜像
 ```
 
 ### 容器
@@ -48,6 +48,17 @@ exit/ctrl+d                     退出容器终端
 systemctl start docker/service docker start 启动服务
     // CentOS 系统不支持 service 指令
 systemctl stop docker/service docker stop   关闭服务
+```
+
+### Docker Compose
+
+Docker Compose 用于定义和运行多容器docker应用的工具。可以通过yaml来配置应用程序的服务。
+
+常用命令：
+
+```
+docker-compose build
+docker-compuse up -d
 ```
 
 ### 配置文件
